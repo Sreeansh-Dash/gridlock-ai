@@ -1,0 +1,167 @@
+[
+  {
+    "unit_id": "UNIT-01",
+    "hex_id": "8861892e9bfffff",
+    "lat": 12.980968,
+    "lon": 77.608447,
+    "predicted_violations": 135.6,
+    "risk_level": "CRITICAL",
+    "is_peak_hour": 0,
+    "deploy_for_datetime": "2026-06-19 15:55",
+    "hexes_covered": [
+      "88618925a5fffff",
+      "8861892e9bfffff",
+      "8861892e99fffff",
+      "8861892e91fffff",
+      "8861892e93fffff",
+      "8860145b4dfffff",
+      "88618925a7fffff"
+    ],
+    "new_hexes_covered": 7,
+    "total_hexes_covered": 7
+  },
+  {
+    "unit_id": "UNIT-02",
+    "hex_id": "8860145b55fffff",
+    "lat": 12.977396,
+    "lon": 77.575475,
+    "predicted_violations": 135.2,
+    "risk_level": "CRITICAL",
+    "is_peak_hour": 0,
+    "deploy_for_datetime": "2026-06-19 15:55",
+    "hexes_covered": [
+      "8860145b5dfffff",
+      "8860145b51fffff",
+      "8860145b57fffff",
+      "8860145b55fffff",
+      "8860145b0bfffff",
+      "8860145b43fffff",
+      "8860145b09fffff"
+    ],
+    "new_hexes_covered": 7,
+    "total_hexes_covered": 7
+  },
+  {
+    "unit_id": "UNIT-03",
+    "hex_id": "8861892093fffff",
+    "lat": 12.933738,
+    "lon": 77.690806,
+    "predicted_violations": 87.9,
+    "risk_level": "HIGH",
+    "is_peak_hour": 0,
+    "deploy_for_datetime": "2026-06-19 15:55",
+    "hexes_covered": [
+      "886189209bfffff",
+      "8861892091fffff",
+      "8861892097fffff",
+      "8861892569fffff",
+      "886189254dfffff",
+      "8861892093fffff",
+      "8861892545fffff"
+    ],
+    "new_hexes_covered": 7,
+    "total_hexes_covered": 7
+  },
+  {
+    "unit_id": "UNIT-04",
+    "hex_id": "8860145b59fffff",
+    "lat": 12.964478,
+    "lon": 77.576086,
+    "predicted_violations": 81.9,
+    "risk_level": "HIGH",
+    "is_peak_hour": 0,
+    "deploy_for_datetime": "2026-06-19 15:55",
+    "hexes_covered": [
+      "8860145a65fffff",
+      "8860145b5bfffff",
+      "88618925b7fffff",
+      "88618925b3fffff",
+      "8860145b59fffff"
+    ],
+    "new_hexes_covered": 5,
+    "total_hexes_covered": 7
+  },
+  {
+    "unit_id": "UNIT-05",
+    "hex_id": "8860145b3bfffff",
+    "lat": 12.999958,
+    "lon": 77.550671,
+    "predicted_violations": 60.1,
+    "risk_level": "MEDIUM",
+    "is_peak_hour": 0,
+    "deploy_for_datetime": "2026-06-19 15:55",
+    "hexes_covered": [
+      "8860145b39fffff",
+      "8860145b17fffff",
+      "886014586dfffff",
+      "8860145b31fffff",
+      "8860145b33fffff",
+      "8860145b15fffff",
+      "8860145b3bfffff"
+    ],
+    "new_hexes_covered": 7,
+    "total_hexes_covered": 7
+  },
+  {
+    "unit_id": "UNIT-06",
+    "hex_id": "8860145a27fffff",
+    "lat": 12.973769,
+    "lon": 77.545336,
+    "predicted_violations": 43.6,
+    "risk_level": "MEDIUM",
+    "is_peak_hour": 0,
+    "deploy_for_datetime": "2026-06-19 15:55",
+    "hexes_covered": [
+      "8860145849fffff",
+      "8860145b1bfffff",
+      "8860145a27fffff",
+      "886014584dfffff",
+      "8860145a21fffff",
+      "8860145a25fffff",
+      "8860145a23fffff"
+    ],
+    "new_hexes_covered": 7,
+    "total_hexes_covered": 7
+  },
+  {
+    "unit_id": "UNIT-07",
+    "hex_id": "8860145b07fffff",
+    "lat": 13.000442,
+    "lon": 77.570439,
+    "predicted_violations": 42.2,
+    "risk_level": "MEDIUM",
+    "is_peak_hour": 0,
+    "deploy_for_datetime": "2026-06-19 15:55",
+    "hexes_covered": [
+      "8860145b3dfffff",
+      "8860145b01fffff",
+      "8860145b07fffff",
+      "8860145b2bfffff",
+      "8860145b03fffff",
+      "8860145b05fffff"
+    ],
+    "new_hexes_covered": 6,
+    "total_hexes_covered": 7
+  },
+  {
+    "unit_id": "UNIT-08",
+    "hex_id": "886016964bfffff",
+    "lat": 13.0714,
+    "lon": 77.58814,
+    "predicted_violations": 37.6,
+    "risk_level": "LOW",
+    "is_peak_hour": 0,
+    "deploy_for_datetime": "2026-06-19 15:55",
+    "hexes_covered": [
+      "886016965dfffff",
+      "8860169641fffff",
+      "8860169643fffff",
+      "886016964bfffff",
+      "8861892cb5fffff",
+      "8861892cb7fffff",
+      "8860169649fffff"
+    ],
+    "new_hexes_covered": 7,
+    "total_hexes_covered": 7
+  }
+]

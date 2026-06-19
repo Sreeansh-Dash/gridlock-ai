@@ -1,0 +1,62 @@
+[
+  {
+    "track_id": 999,
+    "vehicle_class": "car",
+    "pcu_weight": 1.0,
+    "latitude": 12.9352,
+    "longitude": 77.6245,
+    "hex_id": "88618925c5fffff",
+    "impact_score_norm": 30.4,
+    "detected_at_frame": 100,
+    "detected_at_time": "2026-06-19 16:36:42",
+    "source": "synthetic_demo"
+  },
+  {
+    "track_id": 1000,
+    "vehicle_class": "motorcycle",
+    "pcu_weight": 0.5,
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "hex_id": "8860145b49fffff",
+    "impact_score_norm": 6.1,
+    "detected_at_frame": 100,
+    "detected_at_time": "2026-06-19 16:36:42",
+    "source": "synthetic_demo"
+  },
+  {
+    "track_id": 1001,
+    "vehicle_class": "car",
+    "pcu_weight": 1.0,
+    "latitude": 12.9279,
+    "longitude": 77.6271,
+    "hex_id": "88618925cdfffff",
+    "impact_score_norm": 30.4,
+    "detected_at_frame": 100,
+    "detected_at_time": "2026-06-19 16:36:42",
+    "source": "synthetic_demo"
+  },
+  {
+    "track_id": 1002,
+    "vehicle_class": "truck",
+    "pcu_weight": 3.0,
+    "latitude": 12.985,
+    "longitude": 77.5533,
+    "hex_id": "8860145b11fffff",
+    "impact_score_norm": 109.3,
+    "detected_at_frame": 100,
+    "detected_at_time": "2026-06-19 16:36:42",
+    "source": "synthetic_demo"
+  },
+  {
+    "track_id": 1003,
+    "vehicle_class": "car",
+    "pcu_weight": 1.0,
+    "latitude": 12.9121,
+    "longitude": 77.6445,
+    "hex_id": "886189242dfffff",
+    "impact_score_norm": 30.4,
+    "detected_at_frame": 100,
+    "detected_at_time": "2026-06-19 16:36:42",
+    "source": "synthetic_demo"
+  }
+]

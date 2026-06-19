@@ -1,0 +1,90 @@
+[
+  {
+    "unit_id": "UNIT-01",
+    "risk_level": "CRITICAL",
+    "hexes_covered": 7,
+    "predicted_violations": 135.6,
+    "capacity_restored_pcu_hr": 64110.4,
+    "congestion_reduction_pct": 100,
+    "lat": 12.980968,
+    "lon": 77.608447,
+    "deploy_for_datetime": "2026-06-19 15:55"
+  },
+  {
+    "unit_id": "UNIT-02",
+    "risk_level": "CRITICAL",
+    "hexes_covered": 7,
+    "predicted_violations": 135.2,
+    "capacity_restored_pcu_hr": 61580.7,
+    "congestion_reduction_pct": 100,
+    "lat": 12.977396,
+    "lon": 77.575475,
+    "deploy_for_datetime": "2026-06-19 15:55"
+  },
+  {
+    "unit_id": "UNIT-03",
+    "risk_level": "HIGH",
+    "hexes_covered": 7,
+    "predicted_violations": 87.9,
+    "capacity_restored_pcu_hr": 49781.8,
+    "congestion_reduction_pct": 100,
+    "lat": 12.933738,
+    "lon": 77.690806,
+    "deploy_for_datetime": "2026-06-19 15:55"
+  },
+  {
+    "unit_id": "UNIT-04",
+    "risk_level": "HIGH",
+    "hexes_covered": 5,
+    "predicted_violations": 81.9,
+    "capacity_restored_pcu_hr": 37138.3,
+    "congestion_reduction_pct": 100,
+    "lat": 12.964478,
+    "lon": 77.576086,
+    "deploy_for_datetime": "2026-06-19 15:55"
+  },
+  {
+    "unit_id": "UNIT-05",
+    "risk_level": "MEDIUM",
+    "hexes_covered": 7,
+    "predicted_violations": 60.1,
+    "capacity_restored_pcu_hr": 22284.5,
+    "congestion_reduction_pct": 100,
+    "lat": 12.999958,
+    "lon": 77.550671,
+    "deploy_for_datetime": "2026-06-19 15:55"
+  },
+  {
+    "unit_id": "UNIT-06",
+    "risk_level": "MEDIUM",
+    "hexes_covered": 7,
+    "predicted_violations": 43.6,
+    "capacity_restored_pcu_hr": 11104.2,
+    "congestion_reduction_pct": 100,
+    "lat": 12.973769,
+    "lon": 77.545336,
+    "deploy_for_datetime": "2026-06-19 15:55"
+  },
+  {
+    "unit_id": "UNIT-07",
+    "risk_level": "MEDIUM",
+    "hexes_covered": 6,
+    "predicted_violations": 42.2,
+    "capacity_restored_pcu_hr": 14052.8,
+    "congestion_reduction_pct": 100,
+    "lat": 13.000442,
+    "lon": 77.570439,
+    "deploy_for_datetime": "2026-06-19 15:55"
+  },
+  {
+    "unit_id": "UNIT-08",
+    "risk_level": "LOW",
+    "hexes_covered": 7,
+    "predicted_violations": 37.6,
+    "capacity_restored_pcu_hr": 8655.5,
+    "congestion_reduction_pct": 100,
+    "lat": 13.0714,
+    "lon": 77.58814,
+    "deploy_for_datetime": "2026-06-19 15:55"
+  }
+]

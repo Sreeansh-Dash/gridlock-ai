@@ -1,0 +1,61 @@
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+
+# ── Virtual environments ─────────────────────────────
+venv/
+env/
+.venv/
+.env
+
+# ── IDEs ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Large binary / generated outputs ─────────────────
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# Images (generated outputs — keep source images if any)
+outputs/*.png
+outputs/*.jpg
+outputs/frame.png
+
+# Large HTML maps (Folium)
+outputs/heatmap.html
+outputs/heatmap_updated.html
+outputs/deployment_map.html
+
+# Model weights
+models/*.pt
+models/*.pkl
+*.pkl
+
+# ── Data files (large CSVs / JSONs) ──────────────────
+data/raw/
+data/processed/*.csv
+
+# Keep small JSON outputs (deployment, detections, chronic, recovery)
+# Exclude large prediction JSON (5+ MB) — regenerate with: python phase2_prediction/predict.py
+outputs/predictions.json
+outputs/feature_importance.png
+
+# ── Streamlit cache ───────────────────────────────────
+.streamlit/secrets.toml
+cache/
+
+# ── Jupyter ───────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
