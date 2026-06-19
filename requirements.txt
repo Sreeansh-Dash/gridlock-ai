@@ -10,5 +10,7 @@ lightgbm
 scikit-learn
 streamlit
 streamlit-folium
+plotly
+gdown
 ultralytics
 opencv-python

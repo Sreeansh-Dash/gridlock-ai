@@ -27,6 +27,42 @@ st.set_page_config(
 )
 
 # ------------------------------------------------------------------ #
+# Cloud data bootstrap
+# Downloads large files from Google Drive if they are missing.
+# On local dev: files already exist → this block is a no-op.
+# On Streamlit Cloud: uses st.secrets["drive"]["predictions_id"].
+# ------------------------------------------------------------------ #
+def _download_from_drive(file_id: str, dest: str) -> None:
+    """Download a file from Google Drive using gdown."""
+    try:
+        import gdown
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        url = f"https://drive.google.com/uc?id={file_id}"
+        gdown.download(url, dest, quiet=False)
+    except Exception as e:
+        st.warning(f"Could not download {dest} from Drive: {e}")
+
+def _bootstrap_data() -> None:
+    """Ensure all required data files are present."""
+    files = {
+        "outputs/predictions.json": ("drive", "predictions_id"),
+    }
+    for local_path, (section, key) in files.items():
+        if os.path.exists(local_path):
+            continue  # already present (local dev or cached)
+        # Running on Streamlit Cloud — try secrets
+        try:
+            file_id = st.secrets[section][key]
+            if file_id and file_id != "PASTE_GOOGLE_DRIVE_FILE_ID_HERE":
+                with st.spinner(f"⬇️ Downloading {local_path} from Google Drive…"):
+                    _download_from_drive(file_id, local_path)
+        except (KeyError, FileNotFoundError):
+            pass  # secret not set — app will show a graceful error later
+
+_bootstrap_data()
+
+
+# ------------------------------------------------------------------ #
 # Paths
 # ------------------------------------------------------------------ #
 P = {

@@ -43,9 +43,14 @@ models/*.pt
 models/*.pkl
 *.pkl
 
-# ── Data files (large CSVs / JSONs) ──────────────────
+# ── Data files ───────────────────────────────────────
 data/raw/
-data/processed/*.csv
+# Large raw CSVs (100+ MB)
+data/processed/cleaned_violations.csv
+data/processed/impact_scored.csv
+# training_features.csv (4 MB) — exclude too
+data/processed/training_features.csv
+# hex_aggregated.csv is only 60 KB — tracked in git
 
 # Keep small JSON outputs (deployment, detections, chronic, recovery)
 # Exclude large prediction JSON (5+ MB) — regenerate with: python phase2_prediction/predict.py
