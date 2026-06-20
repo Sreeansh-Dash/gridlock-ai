@@ -27,6 +27,7 @@ desktop.ini
 *.mp4
 *.avi
 *.mov
+!outputs/cv_annotated_output.mp4
 
 # Images (generated outputs — keep source images if any)
 outputs/*.png
