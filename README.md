@@ -66,29 +66,24 @@ For deeper breakdowns on feature importance and the complete technical specifica
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quick Start for Judges
 
-### Prerequisites
-- Python 3.11+
-- `ffmpeg` installed on your system PATH for H.264 video rendering
+To run the live command-centre dashboard locally:
 
-### Installation
 ```bash
-git clone <repository-url>
-cd gridlock-parking
+# 1. Clone the repository
+git clone https://github.com/Sreeansh-Dash/gridlock-ai.git
+cd gridlock-ai
+
+# 2. Install dependencies
 pip install -r requirements.txt
-```
 
-### Running the System
-You can run the full pipeline sequentially or jump straight to the dashboard if the models are already built:
+# 3. Configure the cloud data download
+# The app automatically downloads our large prediction dataset (5MB) from Google Drive on startup.
+# Just copy the example secrets file:
+cp .streamlit/secrets.toml.example .streamlit/secrets.toml    # (Mac/Linux)
+copy .streamlit\secrets.toml.example .streamlit\secrets.toml  # (Windows)
 
-```bash
-# 1. Run the Streamlit Dashboard
-streamlit run phase5_dashboard/app.py
-
-# 2. Run the YOLOv11 Computer Vision Loop locally
-python phase4_cv/run_yolo.py
-
-# 3. Inject new YOLO detections into the heatmap
-python phase4_cv/inject_detection.py
+# 4. Launch the Dashboard
+streamlit run phase5_dashboard/app_v2.py
 ```
