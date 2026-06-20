@@ -58,6 +58,10 @@ data/processed/training_features.csv
 outputs/predictions.json
 # feature_importance.png is tracked since it's small
 
+# ── Local Presentation Materials ─────────────────────
+pitch_deck_outline.md
+video_script.md
+
 # ── Streamlit cache ───────────────────────────────────
 .streamlit/secrets.toml
 cache/
