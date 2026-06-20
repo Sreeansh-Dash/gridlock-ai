@@ -35,8 +35,8 @@ outputs/frame.png
 
 # Large HTML maps (Folium)
 outputs/heatmap.html
-outputs/heatmap_updated.html
 outputs/deployment_map.html
+# Note: heatmap_updated.html is tracked since it's only 50KB and required by app_v2.py
 
 # Model weights
 models/*.pt
@@ -55,7 +55,7 @@ data/processed/training_features.csv
 # Keep small JSON outputs (deployment, detections, chronic, recovery)
 # Exclude large prediction JSON (5+ MB) — regenerate with: python phase2_prediction/predict.py
 outputs/predictions.json
-outputs/feature_importance.png
+# feature_importance.png is tracked since it's small
 
 # ── Streamlit cache ───────────────────────────────────
 .streamlit/secrets.toml
