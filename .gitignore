@@ -69,3 +69,6 @@ cache/
 # ── Jupyter ───────────────────────────────────────────
 .ipynb_checkpoints/
 *.ipynb
+
+# ── Submissions ──────────────────────────────────────
+submission.zip

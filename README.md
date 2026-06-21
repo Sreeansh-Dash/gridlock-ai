@@ -3,6 +3,8 @@
 > **Gridlock Hackathon 2.0 — Theme 1**
 > *AI-Driven Enforcement System for Bengaluru Traffic Police*
 
+**🔴 Live Demo:** [https://gridlock-ai-s7xvhejjwpxidg6scpgv4a.streamlit.app/](https://gridlock-ai-s7xvhejjwpxidg6scpgv4a.streamlit.app/)
+
 Gridlock AI is an end-to-end computer vision and predictive intelligence pipeline designed to detect, analyze, and forecast curbside parking violations. It seamlessly transforms raw traffic violation data into high-resolution spatial heatmaps, predicts future gridlocks using machine learning, allocates enforcement resources dynamically, and constantly learns from real-time dashcam computer vision analysis.
 
 ---
